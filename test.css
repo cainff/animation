@@ -1,0 +1,81 @@
+/*Element de l'animation*/
+
+#map {
+    display:block;
+    background: url('image/map pokemon2.png') repeat-x;
+    width: 425px;
+    height: 300px;
+    
+}
+
+#yoshi {
+    position: absolute;
+    background-color : rgba(250,250,250,0.5);
+    widht:30px;
+    height:30px;
+    top:10px;
+    left:205px;
+    -webkit-animation:move-yoshi linear 6s infinite;
+}
+
+#singe {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:90px;
+    left:205px;
+    -webkit-animation:move-singe 10s linear infinite;
+}
+
+#goku {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:10px;
+    left:205px;
+    -webkit-animation:move-goku 4s linear infinite;
+}
+
+/* Animation */ 
+
+@-webkit-keyframes move-yoshi {
+    0%  {top:10px;}
+    10% {top:30px;}
+    20% {top:50px;}
+    30% {top:70px;}
+    40% {top:90px;}
+    50% {top:110px;}
+    60% {top:140px;}
+    70% {top:160px;}
+    80% {top:180px;}
+    90% {top:200px;}
+    
+}
+
+@-webkit-keyframes move-singe {
+    0%  {top:10px;}
+    10% {top:30px;}
+    20% {top:50px;}
+    30% {top:70px;}
+    40% {top:90px;}
+    50% {top:110px;}
+    60% {top:140px;}
+    70% {top:160px;}
+    80% {top:180px;}
+    90% {top:200px;}
+    
+}
+
+@-webkit-keyframes move-goku {
+    0%  {top:10px;}
+    10% {top:30px;}
+    20% {top:50px;}
+    30% {top:70px;}
+    40% {top:90px;}
+    50% {top:110px;}
+    60% {top:140px;}
+    70% {top:160px;}
+    80% {top:180px;}
+    90% {top:200px;}
+    
+}

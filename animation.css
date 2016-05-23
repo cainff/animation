@@ -1,0 +1,212 @@
+
+p{
+    position: absolute;
+    font-size: 36px;
+    top:300px;
+    left:150px;
+     -webkit-text-fill-color:white;
+    -webkit-text-stroke-color:red;
+    -webkit-text-stroke-width:1px;    
+}
+
+#map{
+    position: relative;
+    width:600px;
+    height:600px;
+}
+
+/*Image des personnages*/
+
+
+#pika {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top:220px;
+    left:335px;
+    -webkit-animation:pikachu 52s;
+
+    
+}
+
+#metroid {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 185px;
+    left:335px;
+    -webkit-animation:samus 52s;
+
+}
+
+#mario {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top:150px;
+    left: 335px;
+    -webkit-animation:supermario 52s;
+
+}
+
+#link {
+    position: absolute;
+    width: 35px;
+    height:35px;
+    top:110px;
+    left:335px;
+    -webkit-animation:zelda 52s;
+
+}
+
+/*Image des pokeballs*/
+
+#poke1 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top:220px;
+    left:335px;
+    -webkit-animation:pokeball1 16s;
+    
+}
+
+#poke2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 185px;
+    left:335px; 
+    -webkit-animation:pokeball2 16s;
+
+}
+
+#poke3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top:150px;
+    left: 335px;
+    -webkit-animation:pokeball3 16s;
+
+}
+
+#poke4 {
+    position: absolute;
+    width: 35px;
+    height:35px;
+    top:110px;
+    left:335px;
+    -webkit-animation:pokeball4 16s;
+
+}
+
+/*Explosion*/
+
+#boum1{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top:208px;
+    left:328px;
+    -webkit-animation:explose1 10s;
+}
+
+#boum2 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 175px;
+    left:328px; 
+    -webkit-animation:explose2 10s;
+}
+
+#boum3 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top:140px;
+    left: 328px;
+    -webkit-animation:explose3 10s;
+}
+
+#boum4 {    
+    position: absolute;
+    width: 55px;
+    height:55px;
+    top:100px;
+    left:328px;
+    -webkit-animation:explose4 10s;
+}
+
+/*Les animations* des pokeball*/
+
+@-webkit-keyframes pokeball1 {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes pokeball2 {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes pokeball3 {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes pokeball4 {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+
+/*Les animations des persos */
+
+@-webkit-keyframes pikachu {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes samus {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes supermario {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes zelda {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/*Les animations des explosions*/
+
+@-webkit-keyframes explose1 {
+    0% {opacity:0;}
+    50% {opacity: 1}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes explose2 {
+    0% {opacity:0;}
+    50% {opacity: 1}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes explose3 {
+    0% {opacity:0;}
+    50% {opacity: 1}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes explose4 {
+    0% {opacity:0;}
+    50% {opacity: 1}
+    100% {opacity:0;}
+}
+
